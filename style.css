@@ -1,0 +1,18 @@
+h3{
+    font-size: 25px !important;
+}
+.btn-success:hover{
+    background-color: red;
+}
+canvas{
+    animation-name:VIBGYOR ;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes VIBGYOR{
+    from{box-shadow: 1px 1px 38px red;}
+    to{box-shadow: 1px 1px 38px orange;}
+}
+.p5Canvas {
+    margin-top: 50px;
+}
