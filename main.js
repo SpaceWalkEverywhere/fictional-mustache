@@ -7,7 +7,7 @@ img=loadImage('mumbustache.png');
 function setup(){
     Canvas=createCanvas(375,300);
     Canvas.center();
-    //cam=createCapture(VIDEO);
+    cam=createCapture(VIDEO);
     cam.size(375,300);
     cam.hide();
     net=ml5.poseNet(cam,modelloaded);
