@@ -12,7 +12,7 @@ function setup(){
     cam.hide();
     net=ml5.poseNet(cam,modelloaded);
     net.on('pose',gotposes);
-    img.resize(100,75)
+    img.resize(500,375)
 }
 function draw(){
     image(cam,0,0,375,300);
@@ -30,7 +30,7 @@ function gotposes(results){
         console.log(results);
         console.log("nose x="+results[0].pose.nose.x);
         console.log("nose y="+results[0].pose.nose.y);
-        mx=results[0].pose.nose.x-30;
+        mx=results[0].pose.nose.x+30;
         my=results[0].pose.nose.y+10; 
 
     }
