@@ -30,7 +30,7 @@ function gotposes(results){
         console.log(results);
         console.log("nose x="+results[0].pose.nose.x);
         console.log("nose y="+results[0].pose.nose.y);
-        mx=results[0].pose.nose.x+30;
+        mx=results[0].pose.nose.x+10;
         my=results[0].pose.nose.y+10; 
 
     }
