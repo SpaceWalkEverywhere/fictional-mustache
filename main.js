@@ -12,7 +12,7 @@ function setup(){
     cam.hide();
     net=ml5.poseNet(cam,modelloaded);
     net.on('pose',gotposes);
-    img.resize(500,375)
+    img.resize(500,375);
 }
 function draw(){
     image(cam,0,0,375,300);
